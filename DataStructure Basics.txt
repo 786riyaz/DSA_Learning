@@ -1,0 +1,21 @@
+Data Structures 
+===============================
+Array
+Linked List
+Queue
+Deque
+HashMap
+HashSet
+Tree
+	File System, HTML DOM, Comment Threads, ML Decision
+Binary Search Tree
+Heap
+Graph
+	Social Network, Maps and Navigation, Web Page Links
+Trie
+	AutoComplete, Spell Checker, Distionary Lookups
+Disjoint Set
+Bloom Filter
+	Chrome Safe Browsing, Ethereum Nodes, Spell Checker, Username Availability
+LRU Cache
+	Least Recently Used, Browsers, Datalanes, OS
