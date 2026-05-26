@@ -1,0 +1,5 @@
+Complexity Scenario :::
+
+Best Case :: Omega
+Average Case :: Theta
+Worst Case :: Big O
