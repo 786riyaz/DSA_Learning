@@ -21,12 +21,13 @@ var total_swaps = function (arr) {
   console.log("Temp Sorted ::", temp);
 
   let visited = new Array(n).fill(false);
-  console.log("Visted ::", visited);
+  // console.log("Visted ::", visited);
 
   let swaps = 0;
 
   for (let i = 0; i < n; i++) {
     console.log("=========================================");
+    console.log("Visted ::", visited);
     console.log("Current Index ::", i);
     // already visited OR already in correct place
     if (visited[i] || temp[i].index === i) {
@@ -60,8 +61,8 @@ var total_swaps = function (arr) {
 };
 
 let input;
-input = [10, 19, 6, 5, 3]; // 3
+// input = [10, 19, 6, 5, 3]; // 3
 // input = [10, 19, 6, 3, 5]; // 2
-// input = [2, 8, 5, 4]; // 1
+input = [2, 8, 5, 4]; // 1
 
 console.log(total_swaps(input));
