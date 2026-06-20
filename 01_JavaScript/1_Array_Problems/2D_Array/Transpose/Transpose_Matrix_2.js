@@ -5,22 +5,8 @@
  * @param {number[][]} matrix - 2D array of integers.
  * @returns {number[][]} - The transposed matrix.
  **/
+
 const transposeMatrix = (rows, cols, matrix) => {
-  // Your implementation here to transpose the matrix and return a new matrix
-  let transposeArray = [];
-
-  for (let i = 0; i < cols; i++) {
-    transposeArray.push([]);
-    for (let j = 0; j < rows; j++) {
-    //   console.log(`Transforming [${j}] [${i}]`);
-    //   console.log(`${matrix[j][i]}`);
-      transposeArray[i][j] = matrix[j][i];
-    }
-  }
-  return transposeArray;
-};
-
-const transposeMatrix1 = (rows, cols, matrix) => {
   let transpose = Array.from({ length: cols }, () => Array(rows));
 
   for (let i = 0; i < rows; i++) {
@@ -40,4 +26,4 @@ const transposeMatrix1 = (rows, cols, matrix) => {
 //   ]),
 // ); // [[1,4,7],[2,5,8],[3,6,9]]
 
-console.log(transposeMatrix(3, 2, [[1, 2],[3, 4], [5, 6]])); // [[1,4],[2,5],[3,6]]
+console.log(transposeMatrix(3, 2, [[1, 2],[3, 4], [5, 6]])); // [[1,3,5],[2,4,6]]
